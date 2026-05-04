@@ -1,7 +1,7 @@
 {
-  "version": "1.0.1",
-  "versionCode": 2,
-  "releaseNotes": "Bug fixes and improvements",
-  "apkUrl": "https://github.com/rymoj0917/tasystem-releases/releases/download/v1.0.1/com.denr12.TASystem.apk",
+  "version": "1.0.2",
+  "versionCode": 3,
+  "releaseNotes": "Added autofill in Client Name when creating new ticket, Bug fixes and improvements",
+  "apkUrl": "https://github.com/rymoj0917/tasystem-releases/releases/download/v1.0.2/com.denr12.TASystem.apk",
   "forceUpdate": false
 }
