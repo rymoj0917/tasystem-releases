@@ -1,0 +1,125 @@
+# TASystem — Technical Assistance System
+### DENR XII — RICTU 12 ICT Unit
+
+![Version](https://img.shields.io/badge/Version-1.0.0-blue)
+![Platform](https://img.shields.io/badge/Platform-Android-green)
+![Status](https://img.shields.io/badge/Status-Active-brightgreen)
+
+---
+
+## 📱 About
+
+**TASystem** is an offline-first Android mobile application developed by the
+**RICTU 12 ICT Unit** of the Department of Environment and Natural Resources
+Region XII (DENR XII).
+
+It is designed to help ICT Support Staff manage and track Technical Assistance
+(TA) requests from client offices — even without internet connection.
+
+---
+
+## ✨ Features
+
+- 🔐 **Secure Login** — Online and offline authentication
+- 📊 **Dashboard** — Real-time ticket statistics with custom filters
+- 🎫 **Ticket Management** — Create and resolve support tickets
+- ✍️ **Digital Signatures** — Client and staff signature capture
+- 📷 **Photo Capture** — Attach photo evidence to resolutions
+- 📵 **Offline Mode** — Full functionality without internet
+- 🔄 **Auto Sync** — Automatically syncs data when server is back online
+- 🔔 **OTA Updates** — Over-the-air app updates
+
+---
+
+## 📥 Download Latest APK
+
+Go to the [Releases](../../releases) page to download the latest version.
+
+| Version | Date | Notes |
+|---------|------|-------|
+| v1.0.0  | May 2026 | Initial Release |
+
+---
+
+## 🔄 How to Update
+
+1. Open TASystem app
+2. Go to **About** page from sidebar
+3. Tap **Check for Updates**
+4. If update is available tap **Update Now**
+5. Follow installation instructions
+
+The app also **automatically checks** for updates on startup.
+
+---
+
+## 📋 Requirements
+
+| Requirement | Details |
+|-------------|---------|
+| Platform | Android |
+| Android Version | 10 (API 29) or higher |
+| Storage | Minimum 50MB free |
+| Permissions | Camera, Storage |
+| Network | WiFi or Mobile Data (for online mode) |
+
+---
+
+## 🗄️ Database
+
+| Item | Details |
+|------|---------|
+| Online DB | Microsoft SQL Server |
+| Offline DB | SQLite (on device) |
+| Database | TAS |
+
+---
+
+## 📂 Repository Structure
+
+```
+tasystem-releases/
+├── README.md          ← This file
+├── version.json       ← Current version info for OTA updates
+└── releases/          ← APK files (via GitHub Releases)
+```
+
+---
+
+## 🔧 For Developers — Release Process
+
+1. Update `CurrentVersion` and `CurrentVersionCode` in `UpdateService.cs`
+2. Build Release APK in Visual Studio
+3. Create new GitHub Release with tag `v{version}`
+4. Upload APK to the release
+5. Update `version.json` with new version info and APK URL
+
+### version.json format:
+```json
+{
+  "version": "1.0.0",
+  "versionCode": 1,
+  "releaseNotes": "What changed in this version",
+  "apkUrl": "https://github.com/YOUR_USERNAME/tasystem-releases/releases/download/v1.0.0/TASystem.apk",
+  "forceUpdate": false
+}
+```
+
+---
+
+## 📞 Support
+
+**RICTU 12 ICT Unit**
+Department of Environment and Natural Resources
+Region XII — SOCCSKSARGEN
+
+---
+
+## 📄 License
+
+This application is developed exclusively for
+**DENR XII internal use only**.
+
+---
+
+*Developed by RICTU 12 ICT Unit — DENR Region XII*
