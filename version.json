@@ -1,7 +1,7 @@
 {
-  "version": "1.0.3",
-  "versionCode": 4,
-  "releaseNotes": "Fix signatures not appearing in report, added viewing/editing of resolve tickets, Bug fixes and improvements",
-  "apkUrl": "https://github.com/rymoj0917/tasystem-releases/releases/download/v.1.0.3/com.denr12.TASystem.apk",
+  "version": "1.0.4",
+  "versionCode": 5,
+  "releaseNotes": "Fix Background Sync Order, Fix signatures not appearing in report, added viewing/editing of resolve tickets, Bug fixes and improvements",
+  "apkUrl": "https://github.com/rymoj0917/tasystem-releases/releases/download/v.1.0.4/com.denr12.TASystem.apk",
   "forceUpdate": false
 }
