@@ -1,7 +1,7 @@
 {
-  "version": "1.0.2",
-  "versionCode": 3,
-  "releaseNotes": "Added autofill in Client Name while creating new ticket, Bug fixes and improvements",
-  "apkUrl": "https://github.com/rymoj0917/tasystem-releases/releases/download/v.1.0.2/com.denr12.TASystem.apk",
+  "version": "1.0.3",
+  "versionCode": 4,
+  "releaseNotes": "Fix signatures not appearing in report, added viewing/editing of resolve tickets, Bug fixes and improvements",
+  "apkUrl": "https://github.com/rymoj0917/tasystem-releases/releases/download/v.1.0.3/com.denr12.TASystem.apk",
   "forceUpdate": false
 }
