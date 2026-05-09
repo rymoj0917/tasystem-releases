@@ -1,7 +1,7 @@
 {
-  "version": "1.0.5",
-  "versionCode": 6,
-  "releaseNotes": "Fix Ticket Number generation to prevent further duplication, Bug fixes and improvements",
-  "apkUrl": "https://github.com/rymoj0917/tasystem-releases/releases/download/v.1.0.5/com.denr12.TASystem.apk",
+  "version": "1.0.6",
+  "versionCode": 7,
+  "releaseNotes": "Fix Ticket Number having white/blank spaces, Bug fixes and improvements",
+  "apkUrl": "https://github.com/rymoj0917/tasystem-releases/releases/download/v.1.0.6/com.denr12.TASystem.apk",
   "forceUpdate": false
 }
