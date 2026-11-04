@@ -1,7 +1,7 @@
 {
-  "version": "1.1.0",
-  "versionCode": 11,
-  "releaseNotes": "Replace decimal degress format to ddmmss format on Exif Display, Added GEO CAM, (Photos taken from the app will have Exif Details), use JETHRO Icon, Bug fixes and improvements",
-  "apkUrl": "https://github.com/rymoj0917/tasystem-releases/releases/download/v.1.1.0/com.denr12.TASystem.apk",
+  "version": "1.2.0",
+  "versionCode": 12,
+  "releaseNotes": "Added CCTV Footage Review request (same form as ICT Helpdesk). Ticket numbers now follow one rule across TASystem, ICT Helpdesk and Android (no repeated numbers). Offline tickets are no longer lost when their number is already taken: they get the next free number. Bug fixes and improvements.",
+  "apkUrl": "https://github.com/rymoj0917/tasystem-releases/releases/download/v.1.2.0/com.denr12.TASystem.apk",
   "forceUpdate": false
 }
